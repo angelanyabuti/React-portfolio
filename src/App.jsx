@@ -5,6 +5,7 @@ import Products from './components/Products';
 import Categories from './components/Categories';
 import Offers from './components/Offers';
 import About from './components/About';
+import Contact from './components/Contact';
 
 const App = () => {
   return(
@@ -15,6 +16,7 @@ const App = () => {
       <Categories/>
       <Offers/>
       <About />
+      <Contact/>
     </div>
   )
 }
